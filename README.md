@@ -68,20 +68,6 @@ O conteúdo do site aborda temas relacionados aos impactos ambientais e às solu
 
 ---
 
-## 🎮 Quiz Interativo
-
-O quiz apresenta perguntas relacionadas a:
-
-* Sustentabilidade;
-* Conservação ambiental;
-* Uso dos recursos naturais;
-* Produção agrícola;
-* Impactos ambientais;
-* Desenvolvimento sustentável.
-
-Ao final, o visitante recebe uma pontuação e um feedback educativo sobre seu desempenho.
-
----
 
 ## 🖼️ Galeria de Imagens
 
@@ -93,19 +79,6 @@ A galeria apresenta imagens ilustrando:
 * Recuperação de áreas degradadas;
 * Tecnologias voltadas à sustentabilidade.
 
----
-
-## 📖 História em Quadrinhos
-
-A HQ acompanha personagens que observam situações de desequilíbrio ambiental e aprendem como atitudes sustentáveis podem contribuir para a preservação dos recursos naturais e para a construção de um futuro melhor.
-
----
-
-## 🎬 Vídeo Educativo
-
-O vídeo apresenta exemplos de impactos ambientais gerados pela produção sem planejamento e mostra alternativas sustentáveis que ajudam a reduzir danos ao meio ambiente.
-
----
 
 ## 🌟 Considerações Finais
 
