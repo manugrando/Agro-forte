@@ -1,139 +1,242 @@
 ```html
-<header class="cabecalho">
-    <img class="cabecalho-imagem" src="img/logo.png" alt="Logo do projeto">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - Equilíbrio entre Produção e Preservação</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* ===== Estilos Básicos ===== */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            font-size: 16px;
+            transition: background 0.3s, color 0.3s;
+        }
 
-    <ul>
-        <li class="cabecalho-lista-item">Agro Forte, Futuro Sustentável</li>
-        <li class="cabecalho-lista-item">Equilíbrio entre Produção e Meio Ambiente</li>
-    </ul>
+        a { text-decoration: none; color: inherit; }
 
-    <div id="acessibilidade" class="menu-acessibilidade">
-        <button id="botao-acessibilidade">Acessibilidade</button>
+        header.cabecalho {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #2e7d32;
+            padding: 15px 20px;
+            color: white;
+        }
 
-        <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
-            <button id="aumentar-fonte">A+</button>
-            <button id="diminuir-fonte">A-</button>
-            <button id="alterna-contraste">Alto contraste</button>
-        </div>
-    </div>
-</header>
+        .cabecalho img {
+            width: 120px;
+            height: auto;
+        }
 
-<main>
+        .cabecalho ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
 
-    <section class="agro">
-        <div class="agro-div-conteudo">
-            <h2 class="agro-titulo">
-                Agro Forte, Futuro Sustentável
-            </h2>
+        .cabecalho li {
+            margin: 2px 0;
+        }
 
-            <p class="agro-texto-um">
-                O agronegócio é uma das principais atividades econômicas do Brasil e desempenha um papel fundamental na produção de alimentos, fibras e energia. Entretanto, produzir mais não significa explorar mais os recursos naturais. O desafio atual é unir produtividade e preservação ambiental.
-            </p>
+        .menu-acessibilidade {
+            position: relative;
+        }
 
-            <p class="agro-texto-dois">
-                Com planejamento, inovação e responsabilidade, é possível garantir o crescimento da produção agrícola sem comprometer os recursos necessários para as futuras gerações.
-            </p>
-        </div>
+        .opcoes-acessibilidade {
+            display: none;
+            position: absolute;
+            top: 35px;
+            right: 0;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 5px;
+            border-radius: 5px;
+        }
 
-        <img class="agro-imagem" src="img/campo.jpg" alt="Plantação sustentável">
-    </section>
+        .opcoes-acessibilidade button {
+            margin: 3px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
 
-    <section class="agro">
-        <div class="agro-div-conteudo">
-            <h2 class="agro-titulo">
-                Tecnologia a Favor da Natureza
-            </h2>
+        .apresenta-lista {
+            display: block;
+        }
 
-            <p class="agro-texto-um">
-                A agricultura moderna utiliza tecnologias como drones, sensores, sistemas de irrigação inteligente e monitoramento por satélite. Essas ferramentas permitem produzir mais utilizando menos água, menos insumos e reduzindo impactos ambientais.
-            </p>
+        main {
+            padding: 20px;
+        }
 
-            <p class="agro-texto-dois">
-                A inovação contribui para o uso eficiente dos recursos naturais, tornando o campo mais produtivo, sustentável e preparado para os desafios do futuro.
-            </p>
-        </div>
+        section.agro {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+            align-items: center;
+        }
 
-        <img class="agro-imagem" src="img/tecnologia-campo.jpg" alt="Tecnologia no campo">
-    </section>
+        .agro-div-conteudo {
+            flex: 1;
+            min-width: 300px;
+            margin-right: 20px;
+        }
 
-    <section class="agro">
-        <div class="agro-div-conteudo">
-            <h2 class="agro-titulo">
-                Equilíbrio entre Produção e Meio Ambiente
-            </h2>
+        .agro-div-conteudo h2 {
+            color: #2e7d32;
+        }
 
-            <p class="agro-texto-um">
-                A preservação das nascentes, o cuidado com o solo, a proteção da biodiversidade e o uso consciente da água são práticas fundamentais para uma agricultura sustentável.
-            </p>
+        .agro-imagem {
+            flex: 1;
+            max-width: 500px;
+            width: 100%;
+            border-radius: 8px;
+        }
 
-            <p class="agro-texto-dois">
-                Quando produtores rurais adotam boas práticas ambientais, toda a sociedade é beneficiada. O campo produz alimentos de qualidade enquanto contribui para a conservação da natureza.
-            </p>
-        </div>
+        section.estudante {
+            background-color: #e8f5e9;
+            padding: 20px;
+            border-radius: 8px;
+        }
 
-        <img class="agro-imagem" src="img/sustentabilidade.jpg" alt="Produção agrícola sustentável">
-    </section>
+        .estudante-todos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
 
-    <section class="agro">
-        <div class="agro-div-conteudo">
-            <h2 class="agro-titulo">
-                Campo e Cidade: Uma Conexão Essencial
-            </h2>
+        .estudante-div {
+            text-align: center;
+            max-width: 200px;
+        }
 
-            <p class="agro-texto-um">
-                Tudo o que chega à mesa das famílias começa no campo. A produção agrícola abastece mercados, indústrias e cidades, fortalecendo a economia e garantindo a segurança alimentar.
-            </p>
+        .estudante-imagem {
+            width: 100%;
+            border-radius: 50%;
+        }
 
-            <p class="agro-texto-dois">
-                Valorizar o trabalho dos produtores rurais é reconhecer a importância da conexão entre campo e cidade para a construção de um futuro mais sustentável.
-            </p>
-        </div>
+        footer.rodape {
+            text-align: center;
+            padding: 20px;
+            background-color: #2e7d32;
+            color: white;
+        }
 
-        <img class="agro-imagem" src="img/campo-cidade.jpg" alt="Integração entre campo e cidade">
-    </section>
+        /* ===== Contraste Alto ===== */
+        .alto-contraste {
+            background-color: black;
+            color: yellow;
+        }
 
-    <section class="estudante">
-        <h2 class="estudante-titulo">
-            Responsáveis pelo Projeto
-        </h2>
+        /* ===== Responsividade ===== */
+        @media(max-width: 768px) {
+            section.agro {
+                flex-direction: column;
+            }
 
-        <div class="estudante-todos">
+            .agro-div-conteudo {
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="img/logo.png" alt="Logo do projeto Agro Forte">
 
-            <div class="estudante-div">
-                <img class="estudante-imagem" src="img/professor.jpg" alt="Professor responsável">
+        <ul>
+            <li>Agro Forte, Futuro Sustentável</li>
+            <li>Equilíbrio entre Produção e Meio Ambiente</li>
+        </ul>
 
-                <h3 class="estudante-nome">
-                    Professor Responsável
-                </h3>
+        <div id="acessibilidade" class="menu-acessibilidade">
+            <button id="botao-acessibilidade">Acessibilidade</button>
 
-                <p>
-                    Desenvolvimento do projeto sobre sustentabilidade,
-                    agro e preservação ambiental.
-                </p>
+            <div id="opcoes-acessibilidade" class="opcoes-acessibilidade">
+                <button id="aumentar-fonte">A+</button>
+                <button id="diminuir-fonte">A-</button>
+                <button id="alterna-contraste">Alto contraste</button>
             </div>
-
-            <div class="estudante-div">
-                <img class="estudante-imagem" src="img/aluno.jpg" alt="Aluno participante">
-
-                <h3 class="estudante-nome">
-                    Estudante Participante
-                </h3>
-
-                <p>
-                    Pesquisa, produção de conteúdo e construção do site.
-                </p>
-            </div>
-
         </div>
-    </section>
+    </header>
 
-</main>
+    <main>
+        <!-- Seção 1 -->
+        <section class="agro" aria-label="Agro Forte, Futuro Sustentável">
+            <div class="agro-div-conteudo">
+                <h2>Agro Forte, Futuro Sustentável</h2>
+                <p>O agronegócio é vital para o Brasil. Crescer na produção agrícola deve caminhar lado a lado com a preservação dos recursos naturais, garantindo sustentabilidade para as futuras gerações.</p>
+            </div>
+            <img class="agro-imagem" src="img/campo.jpg" alt="Plantação sustentável" loading="lazy">
+        </section>
 
-<footer class="rodape">
-    <img class="rodape-imagem" src="img/logo.png" alt="Logo do projeto">
+        <!-- Seção 2 -->
+        <section class="agro" aria-label="Tecnologia e Sustentabilidade">
+            <div class="agro-div-conteudo">
+                <h2>Tecnologia a Favor da Natureza</h2>
+                <p>Drones, sensores, sistemas de irrigação inteligente e monitoramento por satélite ajudam a produzir mais usando menos recursos, tornando a agricultura moderna eficiente e sustentável.</p>
+            </div>
+            <img class="agro-imagem" src="img/tecnologia-campo.jpg" alt="Tecnologia no campo" loading="lazy">
+        </section>
 
-    <p style="color:white; margin-top:15px;">
-        Projeto Agrinho 2026 • Agro Forte, Futuro Sustentável
-    </p>
-</footer>
-```
+        <!-- Seção 3 -->
+        <section class="agro" aria-label="Preservação ambiental">
+            <div class="agro-div-conteudo">
+                <h2>Equilíbrio entre Produção e Meio Ambiente</h2>
+                <p>Preservar nascentes, cuidar do solo, proteger a biodiversidade e usar água de forma consciente são práticas essenciais para uma agricultura sustentável.</p>
+            </div>
+            <img class="agro-imagem" src="img/sustentabilidade.jpg" alt="Produção agrícola sustentável" loading="lazy">
+        </section>
+
+        <!-- Seção 4 -->
+        <section class="agro" aria-label="Integração entre campo e cidade">
+            <div class="agro-div-conteudo">
+                <h2>Campo e Cidade: Uma Conexão Essencial</h2>
+                <p>A produção agrícola abastece cidades e fortalece a economia. Valorizar o trabalho do produtor é reconhecer essa conexão fundamental para um futuro sustentável.</p>
+            </div>
+            <img class="agro-imagem" src="img/campo-cidade.jpg" alt="Integração entre campo e cidade" loading="lazy">
+        </section>
+
+        <!-- Responsáveis -->
+        <section class="estudante" aria-label="Responsáveis pelo projeto">
+            <h2 class="estudante-titulo">Responsáveis pelo Projeto</h2>
+            <div class="estudante-todos">
+                <div class="estudante-div">
+                    <img class="estudante-imagem" src="img/professor.jpg" alt="Professor responsável" loading="lazy">
+                    <h3>Professor Responsável</h3>
+                    <p>Desenvolvimento do projeto sobre sustentabilidade, agro e preservação ambiental.</p>
+                </div>
+                <div class="estudante-div">
+                    <img class="estudante-imagem" src="img/aluno.jpg" alt="Aluno participante" loading="lazy">
+                    <h3>Estudante Participante</h3>
+                    <p>Pesquisa, produção de conteúdo e construção do site.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <img src="img/logo.png" alt="Logo do projeto Agro Forte" width="100">
+        <p>Projeto Agro Forte 2026 • Equilíbrio entre Produção e Preservação</p>
+    </footer>
+
+    <script>
+        // ===== Acessibilidade =====
+        const botaoAcessibilidade = document.getElementById('botao-acessibilidade');
+        const opcoesAcessibilidade = document.getElementById('opcoes-acessibilidade');
+        const aumentarFonte = document.getElementById('aumentar-fonte');
+        const diminuirFonte = document.getElementById('diminuir-fonte');
+        const alternaContraste = document.getElementById('alterna-contraste');
+        const corpo = document.body;
+
+        botaoAcessibilidade.addEventListener('click', () => {
+            opcoesAcessibilidade.class
