@@ -61,14 +61,8 @@ O conteúdo do site aborda temas relacionados aos impactos ambientais e às solu
 
 
 ## 🖼️ Galeria de Imagens
-
-A galeria apresenta imagens ilustrando:
-
-* Áreas preservadas;
-* Impactos ambientais causados por ações humanas;
-* Práticas agrícolas sustentáveis;
-* Recuperação de áreas degradadas;
-* Tecnologias voltadas à sustentabilidade.
+Raspsfeld_2007.jpg Wikimedia Commons
+soja.jpg Wikimedia Commons
 
 
 ## 🌟 Considerações Finais
