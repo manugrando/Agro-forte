@@ -41,8 +41,6 @@ O projeto conta com as seguintes funcionalidades:
 * 📱 Menu de navegação responsivo;
 * 🌎 Seção explicativa sobre os impactos ambientais da produção excessiva;
 * 🖼️ Galeria/carrossel de imagens;
-* 💡 Curiosidades interativas;
-* 🌿 Cards expansíveis sobre sustentabilidade e preservação ambiental;
 * ♿ Botão de acessibilidade;
 * 🔠 Opção de aumentar e diminuir fonte;
 * 🌓 Modo de alto contraste;
