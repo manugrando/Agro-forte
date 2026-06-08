@@ -1,6 +1,7 @@
 # Agro Forte
 imagens:
 Rapsfeld 2007.jpg
+soja.jpg
 Creative Commons Attribution-Share Alike 2.5
 
 # 🌎 Produção e Meio Ambiente: Quando o Equilíbrio é Desafiado
