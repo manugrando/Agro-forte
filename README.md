@@ -53,14 +53,10 @@ O projeto conta com as seguintes funcionalidades:
 
 O conteúdo do site aborda temas relacionados aos impactos ambientais e às soluções sustentáveis, como:
 
-* 🌱 Conservação do solo;
-* 💧 Uso consciente da água;
-* 🌳 Preservação da vegetação nativa;
-* 🐝 Proteção da biodiversidade;
-* 🚜 Agricultura sustentável;
-* 🔬 Tecnologia aplicada à redução de impactos ambientais;
-* ♻️ Produção responsável;
-* 🤝 Equilíbrio entre desenvolvimento econômico e preservação ambiental.
+* Agro forte,futuro sustentável;
+* Tecnologia a favor da natureza;
+* Equilibrio entre produção e meio ambiente;
+* Campo e cidade: Uma Conexão essencial;
 
 ---
 
