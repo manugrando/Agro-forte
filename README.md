@@ -42,10 +42,7 @@ O projeto conta com as seguintes funcionalidades:
 * 🌎 Seção explicativa sobre os impactos ambientais da produção excessiva;
 * 🖼️ Galeria/carrossel de imagens;
 * 💡 Curiosidades interativas;
-* 🧠 Quiz com cálculo de pontuação;
 * 🌿 Cards expansíveis sobre sustentabilidade e preservação ambiental;
-* 🎬 Área de vídeo educativo;
-* 📖 História em quadrinhos incorporada ao site;
 * ♿ Botão de acessibilidade;
 * 🔠 Opção de aumentar e diminuir fonte;
 * 🌓 Modo de alto contraste;
