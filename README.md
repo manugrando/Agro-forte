@@ -41,7 +41,6 @@ O projeto conta com as seguintes funcionalidades:
 * 🏠 Página inicial com apresentação do tema;
 * 📱 Menu de navegação responsivo;
 * 🌎 Seção explicativa sobre os impactos ambientais da produção excessiva;
-* 🖼️ Galeria/carrossel de imagens;
 * ♿ Botão de acessibilidade;
 * 🔠 Opção de aumentar e diminuir fonte;
 * 🌓 Modo de alto contraste;
